@@ -31,7 +31,7 @@ export default buildConfig({
       },
       // Needed to initialize values of docOrder field in collection documents.
       // Only needed once per collection. 
-      // (Run payload once with this option enabled , and more if you add new collection)
+      // (Run payload once (NOT in dev mode) with this option enabled , and more if you add new collection)
       initializeDocOrder: true,
 
       access: ({ req, data }) => {
@@ -69,4 +69,12 @@ query {
 
 ```
 
-Script to setup for collections that had documents before installing the plugin isn't needed anymore. The plugin will automatically initialize the `docOrder` field in documents of collections that have the plugin enabled with `initializeDocOrder: true` .
+## Setup for collections that had documents before installing the plugin
+
+The plugin uses the `onInit` function to initialize the `docOrder` field. However, it is not recommended to use this in development mode. It will trigger the `afterChange` hook, which in my case attempts to call `revalidateTag` and results in an error when building the admin panel: "Route /admin/[[...segments]] used 'revalidatePath' during render which is unsupported."
+
+Runing `next start` in production mode will not trigger the error, because pages are prerendered and the `revalidateTag` function is not called.
+
+## Issues
+
+If you have any issues, please open an issue on this repository.
