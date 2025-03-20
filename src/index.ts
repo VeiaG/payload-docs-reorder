@@ -127,6 +127,7 @@ export const docsReorder =
       }
       // Initialize doc order field (if it doesn't exist)
       if (pluginOptions.collections) {
+        const transaction = await payload.db.beginTransaction?.()
         for (const collectionSlug in pluginOptions.collections) {
           const collection = config.collections?.find(
             (collection) => collection.slug === collectionSlug,
@@ -161,6 +162,7 @@ export const docsReorder =
             }
           }
         }
+        if (transaction) await payload.db.commitTransaction?.(transaction)
       }
     }
 
