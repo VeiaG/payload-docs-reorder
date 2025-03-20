@@ -1,9 +1,17 @@
 {
   "name": "@veiag/payload-docs-reorder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Docs-reorder plugin for PayloadCMS 3.0 ",
   "license": "MIT",
   "type": "module",
+  "keywords": [
+    "payload",
+    "payload-plugin",
+    "cms",
+    "plugin",
+    "typescript",
+    "react"
+  ],
   "exports": {
     ".": {
       "import": "./src/index.ts",
