@@ -1,6 +1,6 @@
 # Docs reorder plugin for Payload 3 (^3.28.1)
 
-This plugin has most of the features (and code) of the original plugin by [r1tsuu](https://github.com/r1tsuu/payload-enchants), but with some improvements and made compatible with latest Payload version. (3.28.1)
+This plugin has all of the features (and most of the code) of the original plugin by [r1tsuu](https://github.com/r1tsuu/payload-enchants), but with some improvements and made compatible with latest Payload version. (3.28.1)
 
 ## Install
 
