@@ -73,7 +73,7 @@ query {
 
 The plugin uses the `onInit` function to initialize the `docOrder` field. However, it is not recommended to use this in development mode. It will trigger the `afterChange` hook, which in my case attempts to call `revalidateTag` and results in an error when building the admin panel: "Route /admin/[[...segments]] used 'revalidatePath' during render which is unsupported."
 
-Runing `next start` in production mode will not trigger the error, because pages are prerendered and the `revalidateTag` function is not called.
+Running `next start` in production mode will not trigger the error, because pages are prerendered and the `revalidateTag` function is not called.
 
 ## Issues
 
