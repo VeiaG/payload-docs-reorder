@@ -4,7 +4,7 @@ This plugin has all of the features (and most of the code) of the original plugi
 
 ## Install
 
-`npm i @veiag/docs-reorder`
+`npm i @veiag/payload-docs-reorder`
 
 ## About
 
@@ -20,7 +20,7 @@ In your payload.config.ts:
 
 ```ts
 /// ....
-import { docsReorder } from '@payload-enchants/docs-reorder';
+import { docsReorder } from '@veiag/payload-docs-reorder';
 
 export default buildConfig({
   // ...
