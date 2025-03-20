@@ -29,7 +29,9 @@ export default buildConfig({
       collections: {
         posts: true, //Slug of the collection
       },
-       // Needed to initialize values of docOrder field in collection documents. Only needed once per collection. (Run payload once with this option enabled , and more if you add new collection)
+       // Needed to initialize values of docOrder field in collection documents.
+      // Only needed once per collection. 
+      //(Run payload once with this option enabled , and more if you add new collection)
       initializeDocOrder: true,
 
       access: ({ req, data }) => {
