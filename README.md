@@ -67,4 +67,4 @@ query {
 
 ```
 
-Script to setup for collections that had documents before installing the plugin isn't needed anymore. The plugin will automatically initialize the `docOrder` field in documents of collections that have the plugin enabled with `initializeDocOrder: true` .s
+Script to setup for collections that had documents before installing the plugin isn't needed anymore. The plugin will automatically initialize the `docOrder` field in documents of collections that have the plugin enabled with `initializeDocOrder: true` .
