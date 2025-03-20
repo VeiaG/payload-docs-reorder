@@ -12,6 +12,10 @@ Adds an option to re-order collection documents with drag n drop (almost like ar
 
 ## Video
 
+https://github.com/user-attachments/assets/a47ab7a1-a58c-4626-aad3-9ca33788dbd8
+
+
+
 In your payload.config.ts:
 
 ```ts
