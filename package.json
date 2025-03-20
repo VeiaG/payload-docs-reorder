@@ -1,5 +1,5 @@
 {
-  "name": "@veiag/docs-reorder",
+  "name": "@veiag/payload-docs-reorder",
   "version": "1.0.0",
   "description": "Docs-reorder plugin for PayloadCMS 3.0 ",
   "license": "MIT",

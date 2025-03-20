@@ -70,7 +70,7 @@ export const docsReorder =
             collection.admin.components.beforeList = []
           }
           collection.admin.components.beforeList.push(
-            `@veiag/docs-reorder/client#CollectionDocsOrderButton`,
+            `@veiag/payload-docs-reorder/client#CollectionDocsOrderButton`,
           )
         }
       }

@@ -1,6 +1,6 @@
 import { mongooseAdapter } from '@payloadcms/db-mongodb'
 import { lexicalEditor } from '@payloadcms/richtext-lexical'
-import { docsReorder } from '@veiag/docs-reorder'
+import { docsReorder } from '@veiag/payload-docs-reorder'
 import path from 'path'
 import { buildConfig } from 'payload'
 import sharp from 'sharp'
