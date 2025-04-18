@@ -1,3 +1,6 @@
+> [!CAUTION]
+> This plugin is deprecated, due to a new feature added to Payload - `orderable`
+
 # Docs reorder plugin for Payload 3 (^3.28.1)
 
 This plugin has all of the features (and most of the code) of the original plugin by [r1tsuu](https://github.com/r1tsuu/payload-enchants), but with some improvements and made compatible with latest Payload version. (3.28.1)
